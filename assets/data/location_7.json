@@ -1,0 +1,271 @@
+{
+    "data": {
+        "id": 7,
+        "name": "The Beauty Salon",
+        "rate": 5.0,
+        "ratings": 39,
+        "address": "110 Nassau Street",
+        "city": "Los Angeles",
+        "phone": "193-241-1420",
+        "email": "123@temp-mail.org",
+        "website": "https://www.google.com",
+        "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+        "main_photo": "beauty-salon-1.jpg",
+        "business_hours": [
+            {
+                "dow": 1,
+                "start_time": "08:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 2,
+                "start_time": "08:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 3,
+                "start_time": "08:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 4,
+                "start_time": "08:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 5,
+                "start_time": "08:00",
+                "end_time": "20:00"
+            }
+        ],
+        "coordinates": [
+            37.421346,
+            -122.0860685
+        ],
+        "photos": [
+            {
+                "id": 26,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/pxax5WuM7eY/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/pxax5WuM7eY/1600x900",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/kupPJQQdpMs/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/kupPJQQdpMs/1600x900",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/trv87p_LMUw/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/trv87p_LMUw/1600x900",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/ugzumAVGU8I/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/ugzumAVGU8I/900x1600",
+                        "size": "VIEW"
+                    }
+                ]
+            }
+        ],
+        "staff": [],
+        "services": [
+            {
+                "name": "Featured",
+                "description": "",
+                "services": [
+                    {
+                        "id": 424,
+                        "name": "Eyebrow Threading",
+                        "description": "",
+                        "duration": 10,
+                        "price": 10.0
+                    },
+                    {
+                        "id": 924,
+                        "name": "Additional Threading Services",
+                        "description": "",
+                        "duration": 10,
+                        "price": 4.0
+                    },
+                    {
+                        "id": 633,
+                        "name": "Brazilian Waxing",
+                        "description": "Women only!",
+                        "duration": 30,
+                        "price": 40.0
+                    },
+                    {
+                        "id": 327,
+                        "name": "Brow Tint",
+                        "description": "",
+                        "duration": 15,
+                        "price": 20.0
+                    }
+                ]
+            },
+            {
+                "name": "Facial Waxing",
+                "description": "",
+                "services": [
+                    {
+                        "id": 524,
+                        "name": "Eyebrow Waxing",
+                        "description": "",
+                        "duration": 15,
+                        "price": 12.0
+                    },
+                    {
+                        "id": 628,
+                        "name": "Upper Lip",
+                        "description": "Women only!",
+                        "duration": 5,
+                        "price": 7.0
+                    },
+                    {
+                        "id": 256,
+                        "name": "Full Face Waxing",
+                        "description": "Cleaning up the hair line only",
+                        "duration": 25,
+                        "price": 38.0
+                    }
+                ]
+            },
+            {
+                "name": "Eyebrow Tinting",
+                "description": "",
+                "services": [
+                    {
+                        "id": 837,
+                        "name": "Brow Tint",
+                        "description": "",
+                        "duration": 15,
+                        "price": 20.0
+                    },
+                    {
+                        "id": 33,
+                        "name": "Eyebrow Tinting",
+                        "description": "",
+                        "duration": 25,
+                        "price": 25.0
+                    }
+                ]
+            }
+        ],
+        "cancelation_policy": "Cancel for free anytime in advance, otherwise you can be charged 10% of the service price for not showing up.",
+        "nearby_locations": [
+            {
+                "id": 3,
+                "name": "Studio Hair",
+                "rate": 3.6,
+                "ratings": 48,
+                "address": "13 Pine View Way",
+                "city": "Los Angeles",
+                "phone": "426-403-7582",
+                "email": "eebrall2@so-net.ne.jp",
+                "website": "http://omniture.com/",
+                "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+                "main_photo": "hair-salon-1.jpg",
+                "coordinates": [
+                    37.3694937,
+                    -121.9793285
+                ]
+            },
+            {
+                "id": 5,
+                "name": "LA Hair",
+                "rate": 5.0,
+                "ratings": 100,
+                "address": "84 Pawling Center",
+                "city": "Los Angeles",
+                "phone": "602-626-5154",
+                "email": "csilverwood1@shutterfly.com",
+                "website": null,
+                "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+                "main_photo": "hair-salon-2.jpg",
+                "coordinates": [
+                    37.4220041,
+                    -122.0862515
+                ]
+            }
+        ],
+        "reviews": [
+            {
+                "review_id": 176,
+                "user": {
+                    "user_id": 1987,
+                    "full_name": "Dara H.",
+                    "profile_photo": "user-4.jpg"
+                },
+                "review_date": "2020-09-26",
+                "rate": 5.0,
+                "comment": "I loved this place! My eyebrows look Amazing!!",
+                "reply": {
+                    "reply_date": "2020-09-27",
+                    "comment": "Thank you!!!"
+                }
+            },
+            {
+                "review_id": 170,
+                "user": {
+                    "user_id": 628,
+                    "full_name": "Stephanie L.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-09-25",
+                "rate": 5.0,
+                "comment": "Great service. Very sanitary."
+            },
+            {
+                "review_id": 169,
+                "user": {
+                    "user_id": 924,
+                    "full_name": "Steffi R.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-09-24",
+                "rate": 5.0,
+                "comment": ""
+            },
+            {
+                "review_id": 144,
+                "user": {
+                    "user_id": 230,
+                    "full_name": "Morgan W.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-07-19",
+                "rate": 5.0,
+                "comment": ""
+            }
+        ]
+    }
+}

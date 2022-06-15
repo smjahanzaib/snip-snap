@@ -1,0 +1,25 @@
+{
+    "data": {
+        "id": 100,
+        "code": "IUD3MCP",
+        "status": "active",
+        "redemption_datetime": "",
+        "due_datetime": "2020-12-31 23:59:59",
+        "amount": 10,
+        "service": "1 x Haircut or beard trim",
+        "special_terms": "May not be combined with other vouchers, promotional rates, or special offers.",
+        "location": {
+            "id": 1,
+            "name": "The Barbery",
+            "rate": 4.9,
+            "ratings": 98,
+            "address": "4650 Utah Park",
+            "city": "Los Angeles",
+            "phone": "820-717-3372",
+            "email": "bkelling0@businessinsider.com",
+            "website": "https://www.google.com",
+            "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+            "main_photo": "barber-shop-1.jpg"
+        }
+    }
+}

@@ -1,2 +1,0 @@
-# snip-snap
-Fyp Project

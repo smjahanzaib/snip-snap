@@ -1,0 +1,300 @@
+{
+    "data": {
+        "id": 5,
+        "name": "LA Hair",
+        "rate": 5.0,
+        "ratings": 100,
+        "address": "84 Pawling Center",
+        "city": "Los Angeles",
+        "phone": "602-626-5154",
+        "email": "csilverwood1@shutterfly.com",
+        "website": null,
+        "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+        "main_photo": "hair-salon-2.jpg",
+        "business_hours": [
+            {
+                "dow": 1,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 2,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 3,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 4,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 5,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            }
+        ],
+        "coordinates": [
+            37.4220041,
+            -122.0862515
+        ],
+        "photos": [
+            {
+                "id": 26,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/a3xr2mVjT5M/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/a3xr2mVjT5M/900x1600",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/W6cwaL7PMSw/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/W6cwaL7PMSw/900x1600",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/uIyzZCdCnWc/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/uIyzZCdCnWc/900x1600",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/uSQtrXPG6iY/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/uSQtrXPG6iY/900x1600",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/K2D7muBun1A/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/K2D7muBun1A/900x1600",
+                        "size": "VIEW"
+                    }
+                ]
+            }
+        ],
+        "staff": [
+            {
+                "id": 526,
+                "name": "Yuna",
+                "description": "Hair Stylist",
+                "profile_photo": "staff-4.jpg",
+                "rate": 5.0
+            },
+            {
+                "id": 632,
+                "name": "Lana",
+                "description": "",
+                "profile_photo": ""
+            },
+            {
+                "id": 611,
+                "name": "Carlos",
+                "description": "",
+                "profile_photo": ""
+            },
+            {
+                "id": 94,
+                "name": "Barbara",
+                "description": "",
+                "profile_photo": ""
+            }
+        ],
+        "services": [
+            {
+                "name": "Featured",
+                "description": "",
+                "services": [
+                    {
+                        "id": 525,
+                        "name": "Men's Cut",
+                        "description": "",
+                        "duration": 30,
+                        "price": 45.0
+                    },
+                    {
+                        "id": 255,
+                        "name": "Haircut & Blowdry",
+                        "description": "",
+                        "duration": 60,
+                        "price": 100.0
+                    },
+                    {
+                        "id": 633,
+                        "name": "Blow Dry",
+                        "description": "",
+                        "duration": 45,
+                        "price": 45.0
+                    },
+                    {
+                        "id": 327,
+                        "name": "Root Touch-Up Color",
+                        "description": "",
+                        "duration": 60,
+                        "price": 90.0
+                    }
+                ]
+            },
+            {
+                "name": "Hair",
+                "description": "",
+                "services": [
+                    {
+                        "id": 524,
+                        "name": "Balayage",
+                        "description": "",
+                        "duration": 150,
+                        "price": 250.0
+                    },
+                    {
+                        "id": 628,
+                        "name": "Full Head Hi-Lites",
+                        "description": "",
+                        "duration": 120,
+                        "price": 250.0
+                    },
+                    {
+                        "id": 256,
+                        "name": "Partial Head Hi-Lites",
+                        "description": "",
+                        "duration": 75,
+                        "price": 120.0
+                    },
+                    {
+                        "id": 280,
+                        "name": "Men's Color & Cut",
+                        "description": "",
+                        "duration": 60,
+                        "price": 100.0
+                    },
+                    {
+                        "id": 72,
+                        "name": "Updo",
+                        "description": "",
+                        "duration": 60,
+                        "price": 125.0
+                    }
+                ]
+            }
+        ],
+        "cancelation_policy": "Cancel for free anytime in advance, otherwise you can be charged 10% of the service price for not showing up.",
+        "nearby_locations": [
+            {
+                "id": 3,
+                "name": "Studio Hair",
+                "rate": 3.6,
+                "ratings": 48,
+                "address": "13 Pine View Way",
+                "city": "Los Angeles",
+                "phone": "426-403-7582",
+                "email": "eebrall2@so-net.ne.jp",
+                "website": "http://omniture.com/",
+                "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+                "main_photo": "hair-salon-1.jpg",
+                "coordinates": [
+                    37.3694937,
+                    -121.9793285
+                ]
+            },
+            {
+                "id": 5,
+                "name": "LA Hair",
+                "rate": 5.0,
+                "ratings": 100,
+                "address": "84 Pawling Center",
+                "city": "Los Angeles",
+                "phone": "602-626-5154",
+                "email": "csilverwood1@shutterfly.com",
+                "website": null,
+                "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+                "main_photo": "hair-salon-2.jpg",
+                "coordinates": [
+                    37.4220041,
+                    -122.0862515
+                ]
+            }
+        ],
+        "reviews": [
+            {
+                "review_id": 525,
+                "user": {
+                    "user_id": 2678,
+                    "full_name": "Laura M.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-09-02",
+                "rate": 5.0,
+                "comment": "Yuna exceeded my expectations and has taken the time to help cure my broken bleached hair from previous stylist!"
+            },
+            {
+                "review_id": 157,
+                "user": {
+                    "user_id": 2446,
+                    "full_name": "Trish H.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-09-01",
+                "rate": 5.0,
+                "comment": ""
+            },
+            {
+                "review_id": 122,
+                "user": {
+                    "user_id": 15,
+                    "full_name": "Kendra S.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-09-01",
+                "rate": 3.0,
+                "comment": ""
+            },
+            {
+                "review_id": 288,
+                "user": {
+                    "user_id": 4876,
+                    "full_name": "Sara B.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-08-30",
+                "rate": 4.0,
+                "comment": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "data": {
+        "session": {
+            "id": 1,
+            "staff": {
+                "id": 1009,
+                "name": "Joy",
+                "description": "Barber",
+                "profile_photo": ""
+            },
+            "location": {
+                "id": 1,
+                "name": "The Barbery",
+                "rate": 4.9,
+                "ratings": 98,
+                "address": "4650 Utah Park",
+                "city": "Los Angeles",
+                "phone": "820-717-3372",
+                "email": "bkelling0@businessinsider.com",
+                "website": "https://www.google.com",
+                "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+                "main_photo": "barber-shop-1.jpg"
+            },
+            "messages": [
+                {
+                    "id": 153327,
+                    "message": "Hi, are you available today evening?",
+                    "date": "2020-09-25 12:20:20",
+                    "status": "sent"
+                },
+                {
+                    "id": 153400,
+                    "message": "Hello sir! Yes, I am. What service do you need?",
+                    "date": "2020-09-25 12:22:25",
+                    "status": "received"
+                },
+                {
+                    "id": 153401,
+                    "message": "I would like to change my hair style.",
+                    "date": "2020-09-25 12:23:41",
+                    "status": "sent"
+                },
+                {
+                    "id": 153402,
+                    "message": "No problem. Please book an appointment after 6pm.",
+                    "date": "2020-09-25 12:25:29",
+                    "status": "received"
+                },
+                {
+                    "id": 153402,
+                    "message": "Thank you, will do!",
+                    "date": "2020-09-25 12:26:11",
+                    "status": "sent"
+                }
+            ]
+        }
+    }
+}

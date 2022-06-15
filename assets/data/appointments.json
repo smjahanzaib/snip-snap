@@ -1,0 +1,112 @@
+{
+    "data": {
+        "appointments": [
+            {
+                "id": 18373,
+                "location": {
+                    "id": 1,
+                    "name": "The Barbery",
+                    "rate": 4.9,
+                    "ratings": 98,
+                    "address": "4650 Utah Park",
+                    "city": "Los Angeles",
+                    "phone": "820-717-3372",
+                    "email": "bkelling0@businessinsider.com",
+                    "website": "https://www.google.com",
+                    "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+                    "main_photo": "barber-shop-1.jpg",
+                    "cancelation_policy": "Cancel for free anytime in advance, otherwise you can be charged 10% of the service price for not showing up."
+                },
+                "total_price": 60.0,
+                "total_duration": 75,
+                "status": "active",
+                "request_date": "2020-12-27",
+                "request_time": "12:30",
+                "code": "CNWUO387",
+                "notes": "",
+                "services": [
+                    {
+                        "id": 424,
+                        "name": "Haircut + beard",
+                        "description": "Hot towel and cold towel included",
+                        "duration": 75,
+                        "price": 60.0
+                    }
+                ]
+            },
+            {
+                "id": 17920,
+                "location": {
+                    "id": 1,
+                    "name": "The Barbery",
+                    "rate": 4.9,
+                    "ratings": 98,
+                    "address": "4650 Utah Park",
+                    "city": "Los Angeles",
+                    "phone": "820-717-3372",
+                    "email": "bkelling0@businessinsider.com",
+                    "website": "https://www.google.com",
+                    "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+                    "main_photo": "barber-shop-1.jpg",
+                    "cancelation_policy": "Cancel for free anytime in advance, otherwise you can be charged 10% of the service price for not showing up."
+                },
+                "total_price": 100.0,
+                "total_duration": 70,
+                "status": "completed",
+                "request_date": "2020-09-17",
+                "request_time": "12:30",
+                "code": "OMVCEWI1",
+                "notes": "",
+                "services": [
+                    {
+                        "id": 524,
+                        "name": "Professional hair cut",
+                        "description": "Hair cut, shampoo, head massage.",
+                        "duration": 35,
+                        "price": 50.0
+                    },
+                    {
+                        "id": 524,
+                        "name": "Professional hair cut",
+                        "description": "Hair cut, shampoo, head massage.",
+                        "duration": 35,
+                        "price": 50.0
+                    }
+                ]
+            },
+            {
+                "id": 17919,
+                "location": {
+                    "id": 1,
+                    "name": "The Barbery",
+                    "rate": 4.9,
+                    "ratings": 98,
+                    "address": "4650 Utah Park",
+                    "city": "Los Angeles",
+                    "phone": "820-717-3372",
+                    "email": "bkelling0@businessinsider.com",
+                    "website": "https://www.google.com",
+                    "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+                    "main_photo": "barber-shop-1.jpg",
+                    "cancelation_policy": "Cancel for free anytime in advance, otherwise you can be charged 10% of the service price for not showing up."
+                },
+                "total_price": 30.0,
+                "total_duration": 30,
+                "status": "canceled",
+                "request_date": "2020-08-17",
+                "request_time": "12:00",
+                "code": "NXWOCBW7",
+                "notes": "",
+                "services": [
+                    {
+                        "id": 327,
+                        "name": "Beard treatment",
+                        "description": "Beards line up with a shape up. Steam towel and oil included.",
+                        "duration": 30,
+                        "price": 30.0
+                    }
+                ]
+            }
+        ]
+    }
+}

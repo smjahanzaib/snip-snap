@@ -1,0 +1,278 @@
+{
+    "data": {
+        "id": 2,
+        "name": "The Nail Lounge",
+        "rate": 4.1,
+        "ratings": 97,
+        "address": "5 Dahle Hill",
+        "city": "Los Angeles",
+        "phone": "839-758-3513",
+        "email": "csilverwood1@shutterfly.com",
+        "website": null,
+        "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+        "main_photo": "nail-salon-1.jpg",
+        "gender_specific": "women",
+        "business_hours": [
+            {
+                "dow": 1,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 2,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 3,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 4,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 5,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            }
+        ],
+        "coordinates": [
+            37.3757405,
+            -122.0234518
+        ],
+        "photos": [
+            {
+                "id": 26,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/Xa8fX8bQCgs/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/Xa8fX8bQCgs/1600x900",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/ggtdbP92hf8/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/ggtdbP92hf8/900x1600",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/2aiP_wxNrfU/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/2aiP_wxNrfU/1600x1200",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/HJM-L_lKAQc/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/HJM-L_lKAQc/1600x900",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/_8FW12NlJwE/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/_8FW12NlJwE/1600x1200",
+                        "size": "VIEW"
+                    }
+                ]
+            }
+        ],
+        "staff": [
+            {
+                "id": 1523,
+                "name": "Ani",
+                "description": "Manicurist",
+                "profile_photo": "staff-3.jpg",
+                "rate": 5.0
+            },
+            {
+                "id": 189,
+                "name": "Lilly",
+                "description": "Manicurist",
+                "profile_photo": ""
+            }
+        ],
+        "services": [
+            {
+                "name": "Featured",
+                "description": "",
+                "services": [
+                    {
+                        "id": 525,
+                        "name": "Gel manicure",
+                        "description": "",
+                        "duration": 75,
+                        "price": 45.0
+                    },
+                    {
+                        "id": 255,
+                        "name": "Gel X",
+                        "description": "",
+                        "duration": 90,
+                        "price": 65.0
+                    },
+                    {
+                        "id": 633,
+                        "name": "Acrylic Full Set",
+                        "description": "",
+                        "duration": 105,
+                        "price": 75.0
+                    },
+                    {
+                        "id": 327,
+                        "name": "Acrylic Fill",
+                        "description": "",
+                        "duration": 90,
+                        "price": 55.0
+                    }
+                ]
+            },
+            {
+                "name": "Nail",
+                "description": "",
+                "services": [
+                    {
+                        "id": 524,
+                        "name": "Gel manicure",
+                        "description": "",
+                        "duration": 75,
+                        "price": 45.0
+                    },
+                    {
+                        "id": 628,
+                        "name": "Acrylic removal",
+                        "description": "",
+                        "duration": 15,
+                        "price": 10.0
+                    },
+                    {
+                        "id": 256,
+                        "name": "French Polish",
+                        "description": "",
+                        "duration": 15,
+                        "price": 20.0
+                    },
+                    {
+                        "id": 280,
+                        "name": "Nail Art",
+                        "description": "",
+                        "duration": 15,
+                        "price": 5.0
+                    },
+                    {
+                        "id": 72,
+                        "name": "Russian Manicure",
+                        "description": "",
+                        "duration": 90,
+                        "price": 65.0
+                    }
+                ]
+            }
+        ],
+        "cancelation_policy": "Cancel for free anytime in advance, otherwise you can be charged 10% of the service price for not showing up.",
+        "nearby_locations": [
+            {
+                "id": 3,
+                "name": "Studio Hair",
+                "rate": 3.6,
+                "ratings": 48,
+                "address": "13 Pine View Way",
+                "city": "Los Angeles",
+                "phone": "426-403-7582",
+                "email": "eebrall2@so-net.ne.jp",
+                "website": "http://omniture.com/",
+                "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+                "main_photo": "hair-salon-1.jpg",
+                "coordinates": [
+                    37.3694937,
+                    -121.9793285
+                ]
+            },
+            {
+                "id": 5,
+                "name": "LA Hair",
+                "rate": 5.0,
+                "ratings": 100,
+                "address": "84 Pawling Center",
+                "city": "Los Angeles",
+                "phone": "602-626-5154",
+                "email": "csilverwood1@shutterfly.com",
+                "website": null,
+                "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+                "main_photo": "hair-salon-2.jpg",
+                "coordinates": [
+                    37.4220041,
+                    -122.0862515
+                ]
+            }
+        ],
+        "reviews": [
+            {
+                "review_id": 525,
+                "user": {
+                    "user_id": 2678,
+                    "full_name": "Terri B.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-08-02",
+                "rate": 5.0,
+                "comment": "Experience was fantastic!"
+            },
+            {
+                "review_id": 157,
+                "user": {
+                    "user_id": 2446,
+                    "full_name": "Lexi N.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-07-05",
+                "rate": 5.0,
+                "comment": "Thank you for saving my hair & keeping my dark brown roots away!"
+            },
+            {
+                "review_id": 122,
+                "user": {
+                    "user_id": 15,
+                    "full_name": "Lina P.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-07-01",
+                "rate": 4.0,
+                "comment": ""
+            }
+        ]
+    }
+}

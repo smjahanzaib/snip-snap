@@ -1,0 +1,23 @@
+{
+    "data": {
+        "locations": [
+            {
+                "id": 2,
+                "name": "The Nail Lounge",
+                "rate": 4.1,
+                "ratings": 97,
+                "address": "5 Dahle Hill",
+                "city": "Los Angeles",
+                "phone": "839-758-3513",
+                "email": "csilverwood1@shutterfly.com",
+                "website": null,
+                "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+                "main_photo": "nail-salon-1.jpg",
+                "coordinates": [
+                    37.3757405,
+                    -122.0234518
+                ]
+            }
+        ]
+    }
+}

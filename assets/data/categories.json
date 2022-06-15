@@ -1,0 +1,51 @@
+{
+    "data": {
+        "categories": [
+            {
+                "id": 1,
+                "title": "Beauty Salon",
+                "image": "beauty-salon.jpg"
+            },
+            {
+                "id": 2,
+                "title": "Hair Salon",
+                "image": "hair-salon.jpg"
+            },
+            {
+                "id": 3,
+                "title": "Nail Salon",
+                "image": "nail-salon.jpg"
+            },
+            {
+                "id": 4,
+                "title": "Barber Shop",
+                "image": "barber-shop.jpg"
+            },
+            {
+                "id": 5,
+                "title": "Massage",
+                "image": "massage.jpg"
+            },
+            {
+                "id": 6,
+                "title": "Makeup Artist",
+                "image": "makeup-artist.jpg"
+            },
+            {
+                "id": 7,
+                "title": "Day Spa",
+                "image": "spa.jpg"
+            },
+            {
+                "id": 8,
+                "title": "Therapy Center",
+                "image": "therapy-center.jpg"
+            },
+            {
+                "id": 9,
+                "title": "Tattoo Shops",
+                "image": "tattoo-shops.jpg"
+            }
+        ]
+    }
+}

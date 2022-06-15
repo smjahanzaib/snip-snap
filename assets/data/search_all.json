@@ -1,0 +1,125 @@
+{
+    "data": {
+        "locations": [
+            {
+                "id": 1,
+                "name": "The Barbery",
+                "rate": 4.9,
+                "ratings": 98,
+                "address": "4650 Utah Park",
+                "city": "Los Angeles",
+                "phone": "820-717-3372",
+                "email": "bkelling0@businessinsider.com",
+                "website": null,
+                "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+                "main_photo": "barber-shop-1.jpg",
+                "coordinates": [
+                    37.789682,
+                    -122.3923026
+                ]
+            },
+            {
+                "id": 2,
+                "name": "The Nail Lounge",
+                "rate": 4.1,
+                "ratings": 97,
+                "address": "5 Dahle Hill",
+                "city": "Los Angeles",
+                "phone": "839-758-3513",
+                "email": "csilverwood1@shutterfly.com",
+                "website": null,
+                "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+                "main_photo": "nail-salon-1.jpg",
+                "coordinates": [
+                    37.3757405,
+                    -122.0234518
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Studio Hair",
+                "rate": 3.6,
+                "ratings": 48,
+                "address": "13 Pine View Way",
+                "city": "Los Angeles",
+                "phone": "426-403-7582",
+                "email": "eebrall2@so-net.ne.jp",
+                "website": "https://www.google.com",
+                "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+                "main_photo": "hair-salon-1.jpg",
+                "coordinates": [
+                    37.3694937,
+                    -121.9793285
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Men Culture",
+                "rate": 4.8,
+                "ratings": 97,
+                "address": "00133 Ilene Trail",
+                "city": "Los Angeles",
+                "phone": "820-717-3372",
+                "email": "bkelling0@businessinsider.com",
+                "website": null,
+                "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+                "main_photo": "barber-shop-2.jpg",
+                "coordinates": [
+                    37.4850772,
+                    -122.1504764
+                ]
+            },
+            {
+                "id": 5,
+                "name": "LA Hair",
+                "rate": 5.0,
+                "ratings": 100,
+                "address": "84 Pawling Center",
+                "city": "Los Angeles",
+                "phone": "602-626-5154",
+                "email": "csilverwood1@shutterfly.com",
+                "website": null,
+                "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+                "main_photo": "hair-salon-2.jpg",
+                "coordinates": [
+                    37.4220041,
+                    -122.0862515
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Thai Massage Center",
+                "rate": 4.9,
+                "ratings": 99,
+                "address": "61427 Vermont Alley",
+                "city": "Los Angeles",
+                "phone": "393-145-1724",
+                "email": "eebrall2@so-net.ne.jp",
+                "website": null,
+                "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+                "main_photo": "spa-2.jpg",
+                "coordinates": [
+                    37.4181783,
+                    -122.082593
+                ]
+            },
+            {
+                "id": 7,
+                "name": "The Beauty Salon",
+                "rate": 5.0,
+                "ratings": 39,
+                "address": "110 Nassau Street",
+                "city": "Los Angeles",
+                "phone": "193-241-1420",
+                "email": "123@temp-mail.org",
+                "website": "https://www.google.com",
+                "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+                "main_photo": "beauty-salon-1.jpg",
+                "coordinates": [
+                    37.421346,
+                    -122.0860685
+                ]
+            }
+        ]
+    }
+}

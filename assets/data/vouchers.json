@@ -1,0 +1,75 @@
+{
+    "data": {
+        "vouchers": [
+            {
+                "id": 100,
+                "code": "IUD3MCP",
+                "status": "active",
+                "redemption_datetime": "",
+                "due_datetime": "2020-12-31 23:59:59",
+                "amount": 10,
+                "service": "1 x Haircut or beard trim",
+                "special_terms": "May not be combined with other vouchers, promotional rates, or special offers.",
+                "location": {
+                    "id": 1,
+                    "name": "The Barbery",
+                    "rate": 4.9,
+                    "ratings": 98,
+                    "address": "4650 Utah Park",
+                    "city": "Los Angeles",
+                    "phone": "820-717-3372",
+                    "email": "bkelling0@businessinsider.com",
+                    "website": "https://www.google.com",
+                    "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+                    "main_photo": "barber-shop-1.jpg"
+                }
+            },
+            {
+                "id": 98,
+                "code": "NDJY61A",
+                "status": "active",
+                "redemption_datetime": "",
+                "due_datetime": "2020-12-31 23:59:59",
+                "amount": 5,
+                "service": "Any hair color and hair cut service.",
+                "special_terms": "",
+                "location": {
+                    "id": 3,
+                    "name": "Studio Hair",
+                    "rate": 3.6,
+                    "ratings": 48,
+                    "address": "13 Pine View Way",
+                    "city": "Los Angeles",
+                    "phone": "426-403-7582",
+                    "email": "eebrall2@so-net.ne.jp",
+                    "website": "https://www.google.com",
+                    "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+                    "main_photo": "hair-salon-1.jpg"
+                }
+            },
+            {
+                "id": 90,
+                "code": "PDWBC9A",
+                "status": "redeemed",
+                "redemption_datetime": "2020-08-31 23:59:59",
+                "due_datetime": "2020-12-31 23:59:59",
+                "amount": 20,
+                "service": "Any hair color and hair cut service.",
+                "special_terms": "",
+                "location": {
+                    "id": 3,
+                    "name": "Studio Hair",
+                    "rate": 3.6,
+                    "ratings": 48,
+                    "address": "13 Pine View Way",
+                    "city": "Los Angeles",
+                    "phone": "426-403-7582",
+                    "email": "eebrall2@so-net.ne.jp",
+                    "website": "https://www.google.com",
+                    "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+                    "main_photo": "hair-salon-1.jpg"
+                }
+            }
+        ]
+    }
+}

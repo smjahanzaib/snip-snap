@@ -1,0 +1,321 @@
+{
+    "data": {
+        "id": 4,
+        "name": "Men Culture",
+        "rate": 4.8,
+        "ratings": 97,
+        "address": "00133 Ilene Trail",
+        "city": "Los Angeles",
+        "phone": "820-717-3372",
+        "email": "bkelling0@businessinsider.com",
+        "website": null,
+        "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+        "main_photo": "barber-shop-2.jpg",
+        "gender_specific": "men",
+        "business_hours": [
+            {
+                "dow": 1,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 2,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 3,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 4,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 5,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 6,
+                "start_time": "08:00",
+                "end_time": "16:00"
+            }
+        ],
+        "coordinates": [
+            37.4850772,
+            -122.1504764
+        ],
+        "photos": [
+            {
+                "id": 26,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/pszyJeq6DFs/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/pszyJeq6DFs/1600x900",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/IvQeAVeJULw/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/IvQeAVeJULw/1600x900",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/m4Pd_e-4zKs/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/m4Pd_e-4zKs/1600x900",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/KABJUU0p8X4/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/KABJUU0p8X4/1600x900",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/MUdB4YzDeKA/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/MUdB4YzDeKA/1600x900",
+                        "size": "VIEW"
+                    }
+                ]
+            }
+        ],
+        "staff": [
+            {
+                "id": 1833,
+                "name": "Tank",
+                "description": "Pro barber",
+                "profile_photo": "staff-1.jpg",
+                "rate": 4.9
+            },
+            {
+                "id": 987,
+                "name": "Alvaro",
+                "description": "Pro barber",
+                "profile_photo": "staff-2.jpg",
+                "rate": 4.8
+            },
+            {
+                "id": 1009,
+                "name": "Joy",
+                "description": "Barber",
+                "profile_photo": ""
+            },
+            {
+                "id": 702,
+                "name": "Ivan",
+                "description": "Barber",
+                "profile_photo": ""
+            },
+            {
+                "id": 823,
+                "name": "Henri",
+                "description": "Barber",
+                "profile_photo": ""
+            }
+        ],
+        "services": [
+            {
+                "name": "Featured",
+                "description": "",
+                "services": [
+                    {
+                        "id": 424,
+                        "name": "Haircut + beard",
+                        "description": "Hot towel and cold towel included",
+                        "duration": 75,
+                        "price": 60.0
+                    },
+                    {
+                        "id": 924,
+                        "name": "Haircut",
+                        "description": "Razor shaved included",
+                        "duration": 45,
+                        "price": 40.0
+                    },
+                    {
+                        "id": 633,
+                        "name": "Haircut + eyebrows",
+                        "description": "Razor plus wax",
+                        "duration": 60,
+                        "price": 50.0
+                    },
+                    {
+                        "id": 327,
+                        "name": "Beard treatment",
+                        "description": "Beards line up with a shape up. Steam towel and oil included.",
+                        "duration": 30,
+                        "price": 30.0
+                    }
+                ]
+            },
+            {
+                "name": "Pro Cut",
+                "description": "",
+                "services": [
+                    {
+                        "id": 524,
+                        "name": "Professional hair cut",
+                        "description": "Hair cut, shampoo, head massage.",
+                        "duration": 35,
+                        "price": 50.0
+                    },
+                    {
+                        "id": 628,
+                        "name": "Clean up",
+                        "description": "Cleaning up the hair line and the lower part of the hair line.",
+                        "duration": 25,
+                        "price": 30.0
+                    },
+                    {
+                        "id": 256,
+                        "name": "Line up",
+                        "description": "Cleaning up the hair line only",
+                        "duration": 25,
+                        "price": 20.0
+                    }
+                ]
+            }
+        ],
+        "cancelation_policy": "Cancel for free anytime in advance, otherwise you can be charged 10% of the service price for not showing up.",
+        "nearby_locations": [
+            {
+                "id": 1,
+                "name": "The Barbery",
+                "rate": 4.9,
+                "ratings": 98,
+                "address": "4650 Utah Park",
+                "city": "Los Angeles",
+                "phone": "820-717-3372",
+                "email": "bkelling0@businessinsider.com",
+                "website": null,
+                "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+                "main_photo": "barber-shop-1.jpg",
+                "coordinates": [
+                    37.789682,
+                    -122.3923026
+                ]
+            },
+            {
+                "id": 7,
+                "name": "Hair & Beard",
+                "rate": 4.0,
+                "ratings": 17,
+                "address": "4669 Vahlen Alley",
+                "city": "Los Angeles",
+                "phone": "849-374-4999",
+                "email": "bmaysor2@deliciousdays.com",
+                "website": null,
+                "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+                "main_photo": "barber-shop-3.jpg"
+            }
+        ],
+        "reviews": [
+            {
+                "review_id": 176,
+                "user": {
+                    "user_id": 1987,
+                    "full_name": "Brandon S.",
+                    "profile_photo": "user-1.jpg"
+                },
+                "review_date": "2020-07-26",
+                "rate": 5.0,
+                "comment": "Great service, very sanitary!"
+            },
+            {
+                "review_id": 170,
+                "user": {
+                    "user_id": 628,
+                    "full_name": "Gabi M.",
+                    "profile_photo": "user-2.jpg"
+                },
+                "review_date": "2020-07-25",
+                "rate": 5.0,
+                "comment": "Highly recommended!"
+            },
+            {
+                "review_id": 169,
+                "user": {
+                    "user_id": 924,
+                    "full_name": "Ahmad B.",
+                    "profile_photo": "user-3.jpg"
+                },
+                "review_date": "2020-07-24",
+                "rate": 3.0,
+                "comment": "Trimmed my beard without my permission!",
+                "reply": {
+                    "reply_date": "2020-07-25",
+                    "comment": "Sorry if you were not happy with our service."
+                }
+            },
+            {
+                "review_id": 149,
+                "user": {
+                    "user_id": 511,
+                    "full_name": "John D.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-07-22",
+                "rate": 5.0,
+                "comment": "Fantastic service!"
+            },
+            {
+                "review_id": 133,
+                "user": {
+                    "user_id": 432,
+                    "full_name": "Alan V.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-07-20",
+                "rate": 5.0,
+                "comment": ""
+            },
+            {
+                "review_id": 144,
+                "user": {
+                    "user_id": 230,
+                    "full_name": "Sunit G.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-07-19",
+                "rate": 5.0,
+                "comment": ""
+            }
+        ]
+    }
+}

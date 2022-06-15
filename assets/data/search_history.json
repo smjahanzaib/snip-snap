@@ -1,0 +1,26 @@
+{
+    "data": {
+        "search_queries": [
+            {
+                "id": 1,
+                "query": "hair"
+            },
+            {
+                "id": 2,
+                "query": "barber"
+            },
+            {
+                "id": 3,
+                "query": "shave"
+            },
+            {
+                "id": 4,
+                "query": "trim"
+            },
+            {
+                "id": 5,
+                "query": "barbery"
+            }
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "data": {
+        "user_id": 1,
+        "full_name": "John Doe",
+        "profile_photo": "profile.jpg",
+        "email": "me@john.doe",
+        "phone": "+1 212-555-1234",
+        "address": "E 81st St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10024",
+        "upcoming_appointments": 1,
+        "active_vouchers": 2
+    }
+}

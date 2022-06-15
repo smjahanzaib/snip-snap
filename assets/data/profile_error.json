@@ -1,0 +1,9 @@
+{
+    "data": {},
+    "errors": [
+        {
+            "code": "invalid_credentials",
+            "message": "Incorrect email and/or password. Please try again."
+        }
+    ]
+}

@@ -1,0 +1,267 @@
+{
+    "data": {
+        "id": 6,
+        "name": "Thai Massage Center",
+        "rate": 4.9,
+        "ratings": 99,
+        "address": "61427 Vermont Alley",
+        "city": "Los Angeles",
+        "phone": "393-145-1724",
+        "email": "eebrall2@so-net.ne.jp",
+        "website": null,
+        "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+        "main_photo": "spa-2.jpg",
+        "business_hours": [
+            {
+                "dow": 1,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 2,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 3,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 4,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            },
+            {
+                "dow": 5,
+                "start_time": "10:00",
+                "end_time": "20:00"
+            }
+        ],
+        "coordinates": [
+            37.4181783,
+            -122.082593
+        ],
+        "photos": [
+            {
+                "id": 26,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/cU53ZFBr3lk/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/cU53ZFBr3lk/1600x900",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/mCb06TSaab0/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/mCb06TSaab0/1600x900",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/ZQil3w9lN0k/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/ZQil3w9lN0k/900x1600",
+                        "size": "VIEW"
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "images": [
+                    {
+                        "url": "https://source.unsplash.com/a9pFSC8dTlo/128x128",
+                        "size": "THUMB"
+                    },
+                    {
+                        "url": "https://source.unsplash.com/a9pFSC8dTlo/900x1600",
+                        "size": "VIEW"
+                    }
+                ]
+            }
+        ],
+        "staff": [
+            {
+                "id": 526,
+                "name": "Casandra",
+                "description": "Spa Coordinator",
+                "profile_photo": "staff-5.jpg",
+                "rate": 5.0
+            },
+            {
+                "id": 632,
+                "name": "Francis",
+                "description": "Spa Coordinator",
+                "profile_photo": "",
+                "rate": 5.0
+            },
+            {
+                "id": 611,
+                "name": "Aisha",
+                "description": "Massage Therapist",
+                "profile_photo": ""
+            },
+            {
+                "id": 94,
+                "name": "Alexa",
+                "description": "Massage Therapist",
+                "profile_photo": ""
+            }
+        ],
+        "services": [
+            {
+                "name": "Featured",
+                "description": "",
+                "services": [
+                    {
+                        "id": 525,
+                        "name": "Deep Tissue Massage",
+                        "description": "Is the manipulation of superficial layers of muscle and connective tissue to enhance their function and promote relaxation and well-being.",
+                        "duration": 30,
+                        "price": 50.0
+                    },
+                    {
+                        "id": 255,
+                        "name": "The Swedish Massage",
+                        "description": "This relaxing treatment is custom-tailored to fit each individual’s unique situation.",
+                        "duration": 30,
+                        "price": 50.0
+                    }
+                ]
+            },
+            {
+                "name": "Massage",
+                "description": "",
+                "services": [
+                    {
+                        "id": 524,
+                        "name": "Mother Nature's Massage",
+                        "description": "This relaxing treatment is custom-tailored to fit each individual’s unique situation.",
+                        "duration": 30,
+                        "price": 55.0
+                    },
+                    {
+                        "id": 628,
+                        "name": "Hot Himalayan Salt Stone Massage",
+                        "description": "Himalayan salt stones provide 84 essential minerals including iron, magnesium, calcium, potassium and more...",
+                        "duration": 50,
+                        "price": 120.0
+                    },
+                    {
+                        "id": 280,
+                        "name": "Scalp & Cranial Massage",
+                        "description": "If you have trouble sleeping or frequent headaches, this is the perfect massage for you. This treatment focuses on the scalp & cranial pressure points to help relieve tension by stimulating blood flow to the scalp muscles.",
+                        "duration": 30,
+                        "price": 50.0
+                    },
+                    {
+                        "id": 72,
+                        "name": "Sport Massage",
+                        "description": "This treatment utilizes friction, compression and pressure point work with stretching, directed at the major muscle groups to promote healing and an increase range of motion. Good for people with injuries, chronic pain & restricted range of motion. Includes hot pack where appropriate.",
+                        "duration": 30,
+                        "price": 55.0
+                    }
+                ]
+            }
+        ],
+        "cancelation_policy": "Cancel for free anytime in advance, otherwise you can be charged 10% of the service price for not showing up.",
+        "nearby_locations": [
+            {
+                "id": 3,
+                "name": "Studio Hair",
+                "rate": 3.6,
+                "ratings": 48,
+                "address": "13 Pine View Way",
+                "city": "Los Angeles",
+                "phone": "426-403-7582",
+                "email": "eebrall2@so-net.ne.jp",
+                "website": "http://omniture.com/",
+                "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+                "main_photo": "hair-salon-1.jpg",
+                "coordinates": [
+                    37.3694937,
+                    -121.9793285
+                ]
+            },
+            {
+                "id": 5,
+                "name": "LA Hair",
+                "rate": 5.0,
+                "ratings": 100,
+                "address": "84 Pawling Center",
+                "city": "Los Angeles",
+                "phone": "602-626-5154",
+                "email": "csilverwood1@shutterfly.com",
+                "website": null,
+                "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+                "main_photo": "hair-salon-2.jpg",
+                "coordinates": [
+                    37.4220041,
+                    -122.0862515
+                ]
+            }
+        ],
+        "reviews": [
+            {
+                "review_id": 525,
+                "user": {
+                    "user_id": 2678,
+                    "full_name": "Siana J.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-09-02",
+                "rate": 5.0,
+                "comment": "Service was Great. Despite the pandemic and having to wear a mask they made me feel comfortable and at ease."
+            },
+            {
+                "review_id": 157,
+                "user": {
+                    "user_id": 2446,
+                    "full_name": "Ernesto J.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-09-01",
+                "rate": 5.0,
+                "comment": "Amazing massage!!!"
+            },
+            {
+                "review_id": 122,
+                "user": {
+                    "user_id": 15,
+                    "full_name": "Natasha S.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-09-01",
+                "rate": 5.0,
+                "comment": ""
+            },
+            {
+                "review_id": 288,
+                "user": {
+                    "user_id": 4876,
+                    "full_name": "N. N.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-08-30",
+                "rate": 4.0,
+                "comment": ""
+            }
+        ]
+    }
+}
