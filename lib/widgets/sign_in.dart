@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:SnipSnap/blocs/auth/auth_bloc.dart';
@@ -44,6 +45,7 @@ class _SignInWidgetState extends State<SignInWidget>
 
   AuthBloc _loginBloc;
   bool _showPassword = false;
+  bool _switchValue = false;
 
   String _title;
 
@@ -172,12 +174,25 @@ class _SignInWidgetState extends State<SignInWidget>
                       );
                     },
                   ),
-                  const Padding(padding: EdgeInsets.only(top: kPaddingS)),
                   FlatButton(
                     onPressed: () =>
                         Navigator.pushNamed(context, Routes.forgotPassword),
                     child: Text(L10n.of(context).signInButtonForgot),
                   ),
+                  const Padding(padding: EdgeInsets.only(top: kPaddingM)),
+                  CupertinoSwitch(
+                      value: _switchValue,
+                      onChanged: (bool value) {
+                        setState(() {
+                          _switchValue = value;
+                        });
+                      },
+                      activeColor: CupertinoColors.activeOrange),
+                  SizedBox(
+                    child: Text("Login as vendor"),
+                  ),
+                  const Padding(padding: EdgeInsets.only(top: kPaddingS)),
+                  const Padding(padding: EdgeInsets.only(top: kPaddingS)),
                 ],
               ),
             ),
