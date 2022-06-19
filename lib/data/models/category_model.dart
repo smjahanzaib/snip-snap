@@ -3,6 +3,7 @@ class CategoryModel {
     this.id,
     this.title,
     this.image,
+    this.timeStamp,
   });
 
   factory CategoryModel.fromJson(Map<String, dynamic> json) {
@@ -17,4 +18,5 @@ class CategoryModel {
   final int id;
   final String title;
   final String image;
+  final String timeStamp;
 }
