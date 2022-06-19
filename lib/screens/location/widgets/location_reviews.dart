@@ -51,7 +51,7 @@ class LocationReviews extends StatelessWidget {
                 Container(
                   padding: const EdgeInsetsDirectional.only(end: kPaddingS),
                   child: StarRating(
-                    rating: location.rate,
+                    rating: location.rate.toDouble(),
                     size: 32,
                   ),
                 ),

@@ -64,7 +64,7 @@ class _HomeScreenState extends State<HomeScreen>
         children: <Widget>[
           BoldTitle(title: L10n.of(context).homeTitlePopularCategories),
           Container(
-            height: 130,
+            height: 129,
             child: _isDataLoaded
                 ? ListView(
                     padding: const EdgeInsetsDirectional.only(start: kPaddingM),
