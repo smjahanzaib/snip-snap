@@ -13,6 +13,7 @@ import 'package:SnipSnap/widgets/strut_text.dart';
 import 'package:SnipSnap/widgets/theme_button.dart';
 import 'package:SnipSnap/widgets/theme_text_input.dart';
 import 'package:SnipSnap/utils/text_style.dart';
+import 'package:SnipSnap/screens/AddBeautyExpert/AddExpertScreen.dart';
 
 /// Signin widget to be used wherever we need user to log in before taking any
 /// action.
@@ -70,14 +71,15 @@ class _SignInWidgetState extends State<SignInWidget>
 
   void _validateForm() {
     FormUtils.hideKeyboard(context);
-
-    if (keyPasswordInput.currentState.validate() &&
-        keyEmailInput.currentState.validate()) {
-      _loginBloc.add(LoginRequestedAuthEvent(
-        email: _textEmailController.text,
-        password: _textPassController.text,
-      ));
-    }
+    Navigator.push(
+        context, MaterialPageRoute(builder: (context) => AddExpertScreen()));
+    // if (keyPasswordInput.currentState.validate() &&
+    //     keyEmailInput.currentState.validate()) {
+    //   _loginBloc.add(LoginRequestedAuthEvent(
+    //     email: _textEmailController.text,
+    //     password: _textPassController.text,
+    //   ));
+    // }
   }
 
   @override
