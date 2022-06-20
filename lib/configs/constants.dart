@@ -97,13 +97,13 @@ const String kHomepageURL = 'https://www.google.com/';
 const String kPasswordRegex = r'^(?=.*[0-9])(?=.*[A-Z]).{8,}$';
 
 /// Demo account email address.
-const String kDemoEmail = 'admin@example.com';
+const String kDemoEmail = 'bilal@gmail.com';
 
 /// Demo account password.
 const String kDemoPassword = 'Password1';
 
 /// Currency used in the application.
-const String kCurrency = 'USD';
+const String kCurrency = 'PKR';
 
 /// Logz.io Token for remote logging.
 /// Settings > General > Account Settings

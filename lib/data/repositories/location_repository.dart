@@ -14,15 +14,14 @@ class LocationRepository {
   });
 //
 //
- final baseUrl = "http://192.168.3.101:9000/api/v1";
+  final baseUrl = "http://192.168.0.108:9000/api/v1";
   final DataProvider dataProvider;
 
   Future<List<CategoryModel>> getCategories() async {
     var callApi = await http.get(baseUrl + '/category');
     var data = jsonDecode(callApi.body);
     data = data['data'];
-    final List<dynamic> _categories =
-        data as List<dynamic> ?? <dynamic>[];
+    final List<dynamic> _categories = data as List<dynamic> ?? <dynamic>[];
 
     return _categories
         .map<CategoryModel>((dynamic json) =>
@@ -35,8 +34,7 @@ class LocationRepository {
     var data = jsonDecode(callApi.body);
     data = data['data'];
 
-    final List<dynamic> _locations =
-        data as List<dynamic> ?? <dynamic>[];
+    final List<dynamic> _locations = data as List<dynamic> ?? <dynamic>[];
 
     return _locations
         .map<LocationModel>((dynamic json) =>
@@ -49,8 +47,7 @@ class LocationRepository {
     var data = jsonDecode(callApi.body);
     data = data['data'];
     print(data);
-    final List<dynamic> _locations =
-        data as List<dynamic> ?? <dynamic>[];
+    final List<dynamic> _locations = data as List<dynamic> ?? <dynamic>[];
     _locations.map((e) => e["rate"] = e["rate"].toDouble()).toList();
     return _locations
         .map<LocationModel>((dynamic json) =>

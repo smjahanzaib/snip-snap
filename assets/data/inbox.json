@@ -8,7 +8,7 @@
                 "unread_messages": 1,
                 "staff": {
                     "id": 1833,
-                    "name": "Tank",
+                    "name": "Kashif",
                     "description": "Pro barber",
                     "profile_photo": "staff-1.jpg",
                     "rate": 4.9,
@@ -22,7 +22,7 @@
                 "unread_messages": 0,
                 "staff": {
                     "id": 1009,
-                    "name": "Joy",
+                    "name": "Ahsan",
                     "description": "Barber",
                     "profile_photo": ""
                 }

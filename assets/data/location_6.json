@@ -4,12 +4,12 @@
         "name": "Thai Massage Center",
         "rate": 4.9,
         "ratings": 99,
-        "address": "61427 Vermont Alley",
-        "city": "Los Angeles",
+        "address": "Gulshan-e-iqbal block 2",
+        "city": "Karachi",
         "phone": "393-145-1724",
         "email": "eebrall2@so-net.ne.jp",
         "website": null,
-        "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+        "description": "Best salon in town",
         "main_photo": "spa-2.jpg",
         "business_hours": [
             {
@@ -39,8 +39,8 @@
             }
         ],
         "coordinates": [
-            37.4181783,
-            -122.082593
+            24.882944, 
+        67.081857
         ],
         "photos": [
             {
@@ -187,16 +187,16 @@
                 "name": "Studio Hair",
                 "rate": 3.6,
                 "ratings": 48,
-                "address": "13 Pine View Way",
-                "city": "Los Angeles",
+                "address": "Gulistan-e-johar block 1",
+                "city": "Karachi",
                 "phone": "426-403-7582",
                 "email": "eebrall2@so-net.ne.jp",
                 "website": "http://omniture.com/",
-                "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+                "description": "Best salon in town",
                 "main_photo": "hair-salon-1.jpg",
                 "coordinates": [
-                    37.3694937,
-                    -121.9793285
+                    24.903887, 
+                    67.075849
                 ]
             },
             {
@@ -205,15 +205,15 @@
                 "rate": 5.0,
                 "ratings": 100,
                 "address": "84 Pawling Center",
-                "city": "Los Angeles",
+                "city": "Karachi",
                 "phone": "602-626-5154",
                 "email": "csilverwood1@shutterfly.com",
                 "website": null,
-                "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+                "description": "Best Salon in town",
                 "main_photo": "hair-salon-2.jpg",
                 "coordinates": [
-                    37.4220041,
-                    -122.0862515
+                    24.890419, 
+                    67.094731
                 ]
             }
         ],

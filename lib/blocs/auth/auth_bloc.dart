@@ -21,7 +21,7 @@ part 'auth_state.dart';
 
 class AuthBloc extends BaseBloc<AuthEvent, AuthState> {
   AuthBloc() : super(InitialAuthState());
-  final baseUrl = 'http://192.168.3.101:9000/api/v1';
+  final baseUrl = 'http://192.168.0.108:9000/api/v1';
 
   @override
   Stream<AuthState> mapEventToState(AuthEvent event) async* {
@@ -65,20 +65,24 @@ class AuthBloc extends BaseBloc<AuthEvent, AuthState> {
     print(event.email);
     try {
       var res = await http.post(
-          baseUrl + '/user',
-          body: {'fullName': event.fullName, 'password': event.password, 'email': event.email},
-        );
+        baseUrl + '/user',
+        body: {
+          'fullName': event.fullName,
+          'password': event.password,
+          'email': event.email
+        },
+      );
       var serverRes = jsonDecode(res.body)['message'];
       if (res.statusCode == 422) {
         yield RegistrationFailureAuthState('User already exists');
         return;
       }
       final user = jsonDecode(res.body)['data'] as Map<String, dynamic>;
-      final UserModel userData =  UserModel.fromJson(user);
+      final UserModel userData = UserModel.fromJson(user);
       print("serverRes: $serverRes");
       if (res.statusCode == 200) {
-         getIt.get<AppGlobals>().user = userData;
-         add(UserSavedAuthEvent(getIt.get<AppGlobals>().user));
+        getIt.get<AppGlobals>().user = userData;
+        add(UserSavedAuthEvent(getIt.get<AppGlobals>().user));
 
         yield LoginSuccessAuthState();
       }
@@ -98,14 +102,14 @@ class AuthBloc extends BaseBloc<AuthEvent, AuthState> {
     ///Notify loading to UI
     yield ProcessInProgressAuthState();
     var res = await http.post(
-          baseUrl + '/auth/login',
-          body: {'email': event.email, 'password': event.password},
-        );
+      baseUrl + '/auth/login',
+      body: {'email': event.email, 'password': event.password},
+    );
     if (res.statusCode != 200) {
       yield LoginFailureAuthState('Login failed');
     } else {
       final user = jsonDecode(res.body)['data'] as Map<String, dynamic>;
-      final UserModel userData =  UserModel.fromJson(user);
+      final UserModel userData = UserModel.fromJson(user);
       getIt.get<AppGlobals>().user = userData;
 
       try {
@@ -121,6 +125,7 @@ class AuthBloc extends BaseBloc<AuthEvent, AuthState> {
   Stream<AuthState> _mapSaveUserAuthEventToState(
       UserSavedAuthEvent event) async* {
     AppCacheManager().emptyCache();
+
     ///Save to Storage phone
     final bool savePreferences = await getIt
         .get<AppPreferences>()

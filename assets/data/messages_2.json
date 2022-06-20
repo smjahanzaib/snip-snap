@@ -4,7 +4,7 @@
             "id": 2,
             "staff": {
                 "id": 1833,
-                "name": "Tank",
+                "name": "Kashif",
                 "description": "Pro barber",
                 "profile_photo": "staff-1.jpg",
                 "rate": 4.9,
@@ -15,12 +15,12 @@
                 "name": "The Barbery",
                 "rate": 4.9,
                 "ratings": 98,
-                "address": "4650 Utah Park",
-                "city": "Los Angeles",
+                "address": "Gulshan-e-iqbal block 13",
+                "city": "Karachi",
                 "phone": "820-717-3372",
                 "email": "bkelling0@businessinsider.com",
                 "website": "https://www.google.com",
-                "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+                "description": "Best salon in town",
                 "main_photo": "barber-shop-1.jpg"
             },
             "messages": [
