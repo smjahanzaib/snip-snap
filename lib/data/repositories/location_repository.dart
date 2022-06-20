@@ -1,22 +1,27 @@
+import 'dart:convert';
+
 import 'package:SnipSnap/data/data_provider.dart';
 import 'package:SnipSnap/data/models/category_model.dart';
 import 'package:SnipSnap/data/models/city_model.dart';
 import 'package:SnipSnap/data/models/data_response_model.dart';
 import 'package:SnipSnap/data/models/location_model.dart';
 import 'package:SnipSnap/data/models/search_history_model.dart';
+import 'package:http/http.dart' as http;
 
 class LocationRepository {
   const LocationRepository({
     this.dataProvider = const DataProvider(),
   });
-
+//
+//
+  final baseUrl = "http://192.168.0.108:9000/api/v1";
   final DataProvider dataProvider;
 
   Future<List<CategoryModel>> getCategories() async {
-    final DataResponseModel rawData = await dataProvider.get('categories');
-
-    final List<dynamic> _categories =
-        rawData.data['categories'] as List<dynamic> ?? <dynamic>[];
+    var callApi = await http.get(baseUrl + '/category');
+    var data = jsonDecode(callApi.body);
+    data = data['data'];
+    final List<dynamic> _categories = data as List<dynamic> ?? <dynamic>[];
 
     return _categories
         .map<CategoryModel>((dynamic json) =>
@@ -25,10 +30,11 @@ class LocationRepository {
   }
 
   Future<List<LocationModel>> getRecentlyViewed() async {
-    final DataResponseModel rawData = await dataProvider.get('recently_viewed');
+    var callApi = await http.get(baseUrl + '/recently_viewed');
+    var data = jsonDecode(callApi.body);
+    data = data['data'];
 
-    final List<dynamic> _locations =
-        rawData.data['recently_viewed'] as List<dynamic> ?? <dynamic>[];
+    final List<dynamic> _locations = data as List<dynamic> ?? <dynamic>[];
 
     return _locations
         .map<LocationModel>((dynamic json) =>
@@ -37,11 +43,12 @@ class LocationRepository {
   }
 
   Future<List<LocationModel>> getTopLocations() async {
-    final DataResponseModel rawData = await dataProvider.get('top_locations');
-
-    final List<dynamic> _locations =
-        rawData.data['top_locations'] as List<dynamic> ?? <dynamic>[];
-
+    var callApi = await http.get(baseUrl + '/top_location');
+    var data = jsonDecode(callApi.body);
+    data = data['data'];
+    print(data);
+    final List<dynamic> _locations = data as List<dynamic> ?? <dynamic>[];
+    _locations.map((e) => e["rate"] = e["rate"].toDouble()).toList();
     return _locations
         .map<LocationModel>((dynamic json) =>
             LocationModel.fromJson(json as Map<String, dynamic>))

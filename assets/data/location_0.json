@@ -1,57 +1,57 @@
 {
     "data": {
-        "id": 5,
-        "name": "LA Hair",
+        "id": 7,
+        "name": "The Beauty Salon",
         "rate": 5.0,
-        "ratings": 100,
-        "address": "84 Pawling Center",
+        "ratings": 39,
+        "address": "Korangi block 1",
         "city": "Karachi",
-        "phone": "602-626-5154",
-        "email": "csilverwood1@shutterfly.com",
-        "website": null,
+        "phone": "02130987654",
+        "email": "123@temp-mail.org",
+        "website": "https://www.google.com",
         "description": "Best Salon in town",
-        "main_photo": "hair-salon-2.jpg",
+        "main_photo": "beauty-salon-1.jpg",
         "business_hours": [
             {
                 "dow": 1,
-                "start_time": "10:00",
+                "start_time": "08:00",
                 "end_time": "20:00"
             },
             {
                 "dow": 2,
-                "start_time": "10:00",
+                "start_time": "08:00",
                 "end_time": "20:00"
             },
             {
                 "dow": 3,
-                "start_time": "10:00",
+                "start_time": "08:00",
                 "end_time": "20:00"
             },
             {
                 "dow": 4,
-                "start_time": "10:00",
+                "start_time": "08:00",
                 "end_time": "20:00"
             },
             {
                 "dow": 5,
-                "start_time": "10:00",
+                "start_time": "08:00",
                 "end_time": "20:00"
             }
         ],
         "coordinates": [
-            24.882944, 
-        67.081857
+            24.909804, 
+            67.090268
         ],
         "photos": [
             {
                 "id": 26,
                 "images": [
                     {
-                        "url": "https://source.unsplash.com/a3xr2mVjT5M/128x128",
+                        "url": "https://source.unsplash.com/pxax5WuM7eY/128x128",
                         "size": "THUMB"
                     },
                     {
-                        "url": "https://source.unsplash.com/a3xr2mVjT5M/900x1600",
+                        "url": "https://source.unsplash.com/pxax5WuM7eY/1600x900",
                         "size": "VIEW"
                     }
                 ]
@@ -60,11 +60,11 @@
                 "id": 27,
                 "images": [
                     {
-                        "url": "https://source.unsplash.com/W6cwaL7PMSw/128x128",
+                        "url": "https://source.unsplash.com/kupPJQQdpMs/128x128",
                         "size": "THUMB"
                     },
                     {
-                        "url": "https://source.unsplash.com/W6cwaL7PMSw/900x1600",
+                        "url": "https://source.unsplash.com/kupPJQQdpMs/1600x900",
                         "size": "VIEW"
                     }
                 ]
@@ -73,11 +73,11 @@
                 "id": 28,
                 "images": [
                     {
-                        "url": "https://source.unsplash.com/uIyzZCdCnWc/128x128",
+                        "url": "https://source.unsplash.com/trv87p_LMUw/128x128",
                         "size": "THUMB"
                     },
                     {
-                        "url": "https://source.unsplash.com/uIyzZCdCnWc/900x1600",
+                        "url": "https://source.unsplash.com/trv87p_LMUw/1600x900",
                         "size": "VIEW"
                     }
                 ]
@@ -86,129 +86,96 @@
                 "id": 29,
                 "images": [
                     {
-                        "url": "https://source.unsplash.com/uSQtrXPG6iY/128x128",
+                        "url": "https://source.unsplash.com/ugzumAVGU8I/128x128",
                         "size": "THUMB"
                     },
                     {
-                        "url": "https://source.unsplash.com/uSQtrXPG6iY/900x1600",
-                        "size": "VIEW"
-                    }
-                ]
-            },
-            {
-                "id": 30,
-                "images": [
-                    {
-                        "url": "https://source.unsplash.com/K2D7muBun1A/128x128",
-                        "size": "THUMB"
-                    },
-                    {
-                        "url": "https://source.unsplash.com/K2D7muBun1A/900x1600",
+                        "url": "https://source.unsplash.com/ugzumAVGU8I/900x1600",
                         "size": "VIEW"
                     }
                 ]
             }
         ],
-        "staff": [
-            {
-                "id": 526,
-                "name": "Yuna",
-                "description": "Hair Stylist",
-                "profile_photo": "staff-4.jpg",
-                "rate": 5.0
-            },
-            {
-                "id": 632,
-                "name": "Lana",
-                "description": "",
-                "profile_photo": ""
-            },
-            {
-                "id": 611,
-                "name": "Carlos",
-                "description": "",
-                "profile_photo": ""
-            },
-            {
-                "id": 94,
-                "name": "Barbara",
-                "description": "",
-                "profile_photo": ""
-            }
-        ],
+        "staff": [],
         "services": [
             {
                 "name": "Featured",
                 "description": "",
                 "services": [
                     {
-                        "id": 525,
-                        "name": "Men's Cut",
+                        "id": 424,
+                        "name": "Eyebrow Threading",
                         "description": "",
-                        "duration": 30,
-                        "price": 45.0
+                        "duration": 10,
+                        "price": 10.0
                     },
                     {
-                        "id": 255,
-                        "name": "Haircut & Blowdry",
+                        "id": 924,
+                        "name": "Additional Threading Services",
                         "description": "",
-                        "duration": 60,
-                        "price": 100.0
+                        "duration": 10,
+                        "price": 4.0
                     },
                     {
                         "id": 633,
-                        "name": "Blow Dry",
-                        "description": "",
-                        "duration": 45,
-                        "price": 45.0
+                        "name": "Brazilian Waxing",
+                        "description": "Women only!",
+                        "duration": 30,
+                        "price": 40.0
                     },
                     {
                         "id": 327,
-                        "name": "Root Touch-Up Color",
+                        "name": "Brow Tint",
                         "description": "",
-                        "duration": 60,
-                        "price": 90.0
+                        "duration": 15,
+                        "price": 20.0
                     }
                 ]
             },
             {
-                "name": "Hair",
+                "name": "Facial Waxing",
                 "description": "",
                 "services": [
                     {
                         "id": 524,
-                        "name": "Balayage",
+                        "name": "Eyebrow Waxing",
                         "description": "",
-                        "duration": 150,
-                        "price": 250.0
+                        "duration": 15,
+                        "price": 12.0
                     },
                     {
                         "id": 628,
-                        "name": "Full Head Hi-Lites",
-                        "description": "",
-                        "duration": 120,
-                        "price": 250.0
+                        "name": "Upper Lip",
+                        "description": "Women only!",
+                        "duration": 5,
+                        "price": 7.0
                     },
                     {
                         "id": 256,
-                        "name": "Partial Head Hi-Lites",
+                        "name": "Full Face Waxing",
+                        "description": "Cleaning up the hair line only",
+                        "duration": 25,
+                        "price": 38.0
+                    }
+                ]
+            },
+            {
+                "name": "Eyebrow Tinting",
+                "description": "",
+                "services": [
+                    {
+                        "id": 837,
+                        "name": "Brow Tint",
                         "description": "",
-                        "duration": 75,
-                        "price": 120.0
+                        "duration": 15,
+                        "price": 20.0
                     },
                     {
-                        "id": 280,
-                        "name": "Men's Color & Cut",
+                        "id": 33,
+                        "name": "Eyebrow Tinting",
                         "description": "",
-                        "duration": 60,
-                        "price": 100.0
-                    },
-                    {
-                        "id": 72,
-                        "name": "Updo",
-                        "description": "",
-                        "duration": 60,
-                        "price": 125.0
+                        "duration": 25,
+                        "price": 25.0
                     }
                 ]
             }
@@ -228,8 +195,8 @@
                 "description": "Best salon in town",
                 "main_photo": "hair-salon-1.jpg",
                 "coordinates": [
-                    24.903887, 
-                    67.075849
+                    24.886526, 
+                    67.043576
                 ]
             },
             {
@@ -252,47 +219,51 @@
         ],
         "reviews": [
             {
-                "review_id": 525,
+                "review_id": 176,
                 "user": {
-                    "user_id": 2678,
-                    "full_name": "Laura M.",
-                    "profile_photo": ""
+                    "user_id": 1987,
+                    "full_name": "Dara H.",
+                    "profile_photo": "user-4.jpg"
                 },
-                "review_date": "2020-09-02",
+                "review_date": "2020-09-26",
                 "rate": 5.0,
-                "comment": "Best Salon in town"
+                "comment": "I loved this place! My eyebrows look Amazing!!",
+                "reply": {
+                    "reply_date": "2020-09-27",
+                    "comment": "Thank you!!!"
+                }
             },
             {
-                "review_id": 157,
+                "review_id": 170,
                 "user": {
-                    "user_id": 2446,
-                    "full_name": "Trish H.",
+                    "user_id": 628,
+                    "full_name": "Stephanie L.",
                     "profile_photo": ""
                 },
-                "review_date": "2020-09-01",
+                "review_date": "2020-09-25",
+                "rate": 5.0,
+                "comment": "Great service. Very sanitary."
+            },
+            {
+                "review_id": 169,
+                "user": {
+                    "user_id": 924,
+                    "full_name": "Steffi R.",
+                    "profile_photo": ""
+                },
+                "review_date": "2020-09-24",
                 "rate": 5.0,
                 "comment": ""
             },
             {
-                "review_id": 122,
+                "review_id": 144,
                 "user": {
-                    "user_id": 15,
-                    "full_name": "Kendra S.",
+                    "user_id": 230,
+                    "full_name": "Morgan W.",
                     "profile_photo": ""
                 },
-                "review_date": "2020-09-01",
-                "rate": 3.0,
-                "comment": ""
-            },
-            {
-                "review_id": 288,
-                "user": {
-                    "user_id": 4876,
-                    "full_name": "Sara B.",
-                    "profile_photo": ""
-                },
-                "review_date": "2020-08-30",
-                "rate": 4.0,
+                "review_date": "2020-07-19",
+                "rate": 5.0,
                 "comment": ""
             }
         ]

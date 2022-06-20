@@ -5,17 +5,17 @@
                 "city_id": "eb54a1a661dc616f2dbe5abb166c785044753b0c",
                 "city_name": "New York",
                 "coordinates": [
-                    40.7127837,
-                    -74.0059413
+                    24.909804, 
+                    67.090268
                 ],
                 "state_name": "New York"
             },
             {
                 "city_id": "29df7b4e3a881a99657fd285cd041fe204917083",
-                "city_name": "Los Angeles",
+                "city_name": "Karachi",
                 "coordinates": [
-                    34.0522342,
-                    -118.2436849
+                    24.903887, 
+        67.075849
                 ],
                 "state_name": "California"
             },
@@ -23,8 +23,8 @@
                 "city_id": "d63e6516ede78c74278ec555e4acdb13265aa063",
                 "city_name": "Chicago",
                 "coordinates": [
-                    41.8781136,
-                    -87.6297982
+                    24.890419, 
+                    67.094731
                 ],
                 "state_name": "Illinois"
             },
@@ -32,8 +32,8 @@
                 "city_id": "79b98d93a0d111fd718d29cbc16d6f1b48d7cd1d",
                 "city_name": "Houston",
                 "coordinates": [
-                    29.7604267,
-                    -95.3698028
+                    24.882944, 
+        67.081857
                 ],
                 "state_name": "Texas"
             },
@@ -41,8 +41,8 @@
                 "city_id": "b30463f64ede768115bcbc205697fc0334f47ab0",
                 "city_name": "Philadelphia",
                 "coordinates": [
-                    39.9525839,
-                    -75.1652215
+                    24.886526, 
+        67.043576
                 ],
                 "state_name": "Pennsylvania"
             },
@@ -50,8 +50,8 @@
                 "city_id": "80d9cbea4c9ce6f2344712b188363a1070090b05",
                 "city_name": "Phoenix",
                 "coordinates": [
-                    33.4483771,
-                    -112.0740373
+                    24.881542, 
+                    67.027011
                 ],
                 "state_name": "Arizona"
             },
@@ -59,8 +59,8 @@
                 "city_id": "b976e2096cb75cd8b0f84f5b7764322aba5d3dc3",
                 "city_name": "San Antonio",
                 "coordinates": [
-                    29.4241219,
-                    -98.4936282
+                    24.883878, 
+        67.014909
                 ],
                 "state_name": "Texas"
             },
@@ -68,8 +68,8 @@
                 "city_id": "8a01d34dd0f43846b99bf3328e3791ca038e47e9",
                 "city_name": "San Diego",
                 "coordinates": [
-                    32.715738,
-                    -117.1610838
+                    24.886526, 
+        67.043576
                 ],
                 "state_name": "California"
             },
@@ -77,8 +77,8 @@
                 "city_id": "e1629ed192dfd51da020e84a4b78768ddd2570e8",
                 "city_name": "Dallas",
                 "coordinates": [
-                    32.7766642,
-                    -96.7969879
+                    24.909804, 
+                    67.090268
                 ],
                 "state_name": "Texas"
             },
@@ -86,8 +86,8 @@
                 "city_id": "7df472264ac918d006b9944e65a457d66d557d5a",
                 "city_name": "San Jose",
                 "coordinates": [
-                    37.3382082,
-                    -121.8863286
+                    24.909804, 
+                    67.090268
                 ],
                 "state_name": "California"
             }

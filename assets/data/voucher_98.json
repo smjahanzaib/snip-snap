@@ -13,12 +13,12 @@
             "name": "Studio Hair",
             "rate": 3.6,
             "ratings": 48,
-            "address": "13 Pine View Way",
-            "city": "Los Angeles",
+            "address": "Gulistan-e-johar block 1",
+            "city": "Karachi",
             "phone": "426-403-7582",
             "email": "eebrall2@so-net.ne.jp",
             "website": "https://www.google.com",
-            "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+            "description": "Best salon in town",
             "main_photo": "hair-salon-1.jpg"
         }
     }

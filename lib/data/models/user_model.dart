@@ -1,5 +1,6 @@
 class UserModel {
   UserModel(
+    this._id,
     this.id,
     this.fullName,
     this.profilePhoto,
@@ -16,8 +17,9 @@ class UserModel {
     final String _profilePhoto = json['profile_photo'] as String ?? '';
 
     return UserModel(
+      json['_id'] as String ?? '',
       json['user_id'] as int ?? 0,
-      json['full_name'] as String ?? '',
+      json['full_name'] as String ?? json['fullName'] as String ?? '',
       _profilePhoto.isNotEmpty ? 'assets/images/data/users/' + _profilePhoto : '',
       json['email'] as String ?? '',
       json['phone'] as String ?? '',
@@ -39,4 +41,5 @@ class UserModel {
   final String address;
   final int upcomingAppointments;
   final int activeVouchers;
+  final String _id;
 }

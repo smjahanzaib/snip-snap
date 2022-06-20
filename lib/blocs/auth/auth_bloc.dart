@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
 
@@ -13,12 +14,14 @@ import 'package:SnipSnap/utils/app_preferences.dart';
 
 import 'package:flutter/material.dart';
 import 'package:SnipSnap/data/models/payment_card_model.dart';
+import 'package:http/http.dart' as http;
 
 part 'auth_event.dart';
 part 'auth_state.dart';
 
 class AuthBloc extends BaseBloc<AuthEvent, AuthState> {
   AuthBloc() : super(InitialAuthState());
+  final baseUrl = 'http://192.168.0.108:9000/api/v1';
 
   @override
   Stream<AuthState> mapEventToState(AuthEvent event) async* {
@@ -57,14 +60,39 @@ class AuthBloc extends BaseBloc<AuthEvent, AuthState> {
       UserRegisteredAuthEvent event) async* {
     ///Notify loading to UI
     yield ProcessInProgressAuthState();
-
-    getIt.get<AppGlobals>().user = await const UserRepository().getProfile();
-
+    print(event.fullName);
+    print(event.password);
+    print(event.email);
     try {
-      add(UserSavedAuthEvent(getIt.get<AppGlobals>().user));
+      var res = await http.post(
+        baseUrl + '/user',
+        body: {
+          'fullName': event.fullName,
+          'password': event.password,
+          'email': event.email
+        },
+      );
+      var serverRes = jsonDecode(res.body)['message'];
+      if (res.statusCode == 422) {
+        yield RegistrationFailureAuthState('User already exists');
+        return;
+      }
+      final user = jsonDecode(res.body)['data'] as Map<String, dynamic>;
+      final UserModel userData = UserModel.fromJson(user);
+      print("serverRes: $serverRes");
+      if (res.statusCode == 200) {
+        getIt.get<AppGlobals>().user = userData;
+        add(UserSavedAuthEvent(getIt.get<AppGlobals>().user));
 
-      yield LoginSuccessAuthState();
+        yield LoginSuccessAuthState();
+      }
+
+      // getIt.get<AppGlobals>().user = await const UserRepository().getProfile();
+      // add(UserSavedAuthEvent(getIt.get<AppGlobals>().user));
+
+      // yield LoginSuccessAuthState();
     } catch (error) {
+      print("error: $error");
       yield RegistrationFailureAuthState(error.toString());
     }
   }
@@ -73,17 +101,16 @@ class AuthBloc extends BaseBloc<AuthEvent, AuthState> {
       LoginRequestedAuthEvent event) async* {
     ///Notify loading to UI
     yield ProcessInProgressAuthState();
-
-    final DataResponseModel user = await const UserRepository().login(
-      email: event.email,
-      password: event.password,
+    var res = await http.post(
+      baseUrl + '/auth/login',
+      body: {'email': event.email, 'password': event.password},
     );
-
-    if (user.errors.isNotEmpty) {
-      yield LoginFailureAuthState(apiError(user.errors));
+    if (res.statusCode != 200) {
+      yield LoginFailureAuthState('Login failed');
     } else {
-      getIt.get<AppGlobals>().user = UserModel.fromJson(user.data);
-      AppCacheManager().emptyCache();
+      final user = jsonDecode(res.body)['data'] as Map<String, dynamic>;
+      final UserModel userData = UserModel.fromJson(user);
+      getIt.get<AppGlobals>().user = userData;
 
       try {
         add(UserSavedAuthEvent(getIt.get<AppGlobals>().user));

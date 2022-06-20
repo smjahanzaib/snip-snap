@@ -6,16 +6,16 @@
                 "name": "The Beauty Salon",
                 "rate": 5.0,
                 "ratings": 39,
-                "address": "110 Nassau Street",
-                "city": "Los Angeles",
-                "phone": "193-241-1420",
+                "address": "Korangi block 1",
+                "city": "Karachi",
+                "phone": "02130987654",
                 "email": "123@temp-mail.org",
                 "website": "https://www.google.com",
-                "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+                "description": "Best Salon in town",
                 "main_photo": "beauty-salon-1.jpg",
                 "coordinates": [
-                    37.421346,
-                    -122.0860685
+                    24.882944, 
+        67.081857
                 ]
             }
         ]

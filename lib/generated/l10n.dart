@@ -49,7 +49,7 @@ class L10n {
   /// `Explore`
   String get homeTitleGuest {
     return Intl.message(
-      'Explore',
+      'Bilal',
       name: 'homeTitleGuest',
       desc: '',
       args: [],

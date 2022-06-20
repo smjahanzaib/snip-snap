@@ -379,7 +379,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Book what you love"),
         "homePlaceholderSearch": MessageLookupByLibrary.simpleMessage(
             "Search for a service or business"),
-        "homeTitleGuest": MessageLookupByLibrary.simpleMessage("Explore"),
+        "homeTitleGuest": MessageLookupByLibrary.simpleMessage("Bilal"),
         "homeTitlePopularCategories":
             MessageLookupByLibrary.simpleMessage("Popular Categories"),
         "homeTitleRecentlyViewed":
