@@ -98,6 +98,15 @@ dependencies:
   font_awesome_flutter: any
   connectivity_plus: any
   permission_handler:
+  rolling_nav_bar:
+  email_validator:
+  date_format:
+  percent_indicator:
+  fl_chart:
+  flutter_sinusoidals: 
+  provider:
+  flutter_html:
+  flutter_rating_bar:
 
 dev_dependencies:
   flutter_test:

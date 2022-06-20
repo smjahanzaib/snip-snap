@@ -13,7 +13,7 @@ import 'package:SnipSnap/widgets/strut_text.dart';
 import 'package:SnipSnap/widgets/theme_button.dart';
 import 'package:SnipSnap/widgets/theme_text_input.dart';
 import 'package:SnipSnap/utils/text_style.dart';
-import 'package:SnipSnap/screens/AddBeautyExpert/AddExpertScreen.dart';
+import 'package:SnipSnap/vendor/screens/addServicesScreen.dart';
 
 /// Signin widget to be used wherever we need user to log in before taking any
 /// action.
@@ -46,7 +46,7 @@ class _SignInWidgetState extends State<SignInWidget>
 
   AuthBloc _loginBloc;
   bool _showPassword = false;
-  bool _switchValue = false;
+  bool _isloginAsVendor = false;
 
   String _title;
 
@@ -71,8 +71,8 @@ class _SignInWidgetState extends State<SignInWidget>
 
   void _validateForm() {
     FormUtils.hideKeyboard(context);
-    Navigator.push(
-        context, MaterialPageRoute(builder: (context) => AddExpertScreen()));
+
+    Navigator.pushNamed(context, Routes.addServices);
     // if (keyPasswordInput.currentState.validate() &&
     //     keyEmailInput.currentState.validate()) {
     //   _loginBloc.add(LoginRequestedAuthEvent(
@@ -183,10 +183,10 @@ class _SignInWidgetState extends State<SignInWidget>
                   ),
                   const Padding(padding: EdgeInsets.only(top: kPaddingM)),
                   CupertinoSwitch(
-                      value: _switchValue,
+                      value: false,
                       onChanged: (bool value) {
                         setState(() {
-                          _switchValue = value;
+                          _isloginAsVendor = true;
                         });
                       },
                       activeColor: CupertinoColors.activeOrange),

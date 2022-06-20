@@ -14,7 +14,7 @@ class LocationRepository {
   });
 //
 //
-  final baseUrl = "http://192.168.0.108:9000/api/v1";
+  final baseUrl = "http://192.168.43.39:9000/api/v1";
   final DataProvider dataProvider;
 
   Future<List<CategoryModel>> getCategories() async {
