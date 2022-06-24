@@ -42,7 +42,7 @@ class HomeHeader extends SliverPersistentHeaderDelegate {
                       child: StrutText(
                         getIt.get<AppGlobals>().user != null
                             ? L10n.of(context).homeTitleUser(
-                                getIt.get<AppGlobals>().user?.fullName)
+                                getIt.get<AppGlobals>().user.fullName)
                             : L10n.of(context).homeTitleGuest,
                         style: Theme.of(context).textTheme.headline4.white.w600,
                         maxLines: 1,

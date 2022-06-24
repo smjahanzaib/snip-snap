@@ -51,41 +51,43 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           const EdgeInsets.symmetric(horizontal: kPaddingM),
                       child: ListView(
                         children: <Widget>[
-                          ListItem(
-                            title: L10n.of(context).profileListAppointments,
-                            leading: const Icon(Icons.calendar_today),
-                            trailing: Row(
-                              children: <Widget>[
-                                if (getIt
+                          if (getIt.get<AppGlobals>().user != null &&
+                              getIt.get<AppGlobals>().user.role != 'admin')
+                            ListItem(
+                              title: L10n.of(context).profileListAppointments,
+                              leading: const Icon(Icons.calendar_today),
+                              trailing: Row(
+                                children: <Widget>[
+                                  if (getIt
+                                          .get<AppGlobals>()
+                                          .user
+                                          .upcomingAppointments >
+                                      0)
+                                    Badge(
+                                      text: getIt
+                                          .get<AppGlobals>()
+                                          .user
+                                          .upcomingAppointments
+                                          .toString(),
+                                      color: kWhite,
+                                      backgroundColor: kPrimaryColor,
+                                    )
+                                  else
+                                    Container(),
+                                  const ArrowRightIcon(),
+                                ],
+                              ),
+                              onPressed: () {
+                                // tap on BottomNavigationBar button
+                                (getIt
                                         .get<AppGlobals>()
-                                        .user
-                                        .upcomingAppointments >
-                                    0)
-                                  Badge(
-                                    text: getIt
-                                        .get<AppGlobals>()
-                                        .user
-                                        .upcomingAppointments
-                                        .toString(),
-                                    color: kWhite,
-                                    backgroundColor: kPrimaryColor,
-                                  )
-                                else
-                                  Container(),
-                                const ArrowRightIcon(),
-                              ],
+                                        .globalKeyBottomBar
+                                        .currentWidget as BottomNavigationBar)
+                                    .onTap(getIt
+                                        .get<BottomBarItems>()
+                                        .getBottomBarItem('appointments'));
+                              },
                             ),
-                            onPressed: () {
-                              // tap on BottomNavigationBar button
-                              (getIt
-                                      .get<AppGlobals>()
-                                      .globalKeyBottomBar
-                                      .currentWidget as BottomNavigationBar)
-                                  .onTap(getIt
-                                      .get<BottomBarItems>()
-                                      .getBottomBarItem('appointments'));
-                            },
-                          ),
                           // ListItem(
                           //   title: L10n.of(context).profileListVouchers,
                           //   leading: const Icon(Icons.redeem),
@@ -113,13 +115,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           //   onPressed: () =>
                           //       Navigator.pushNamed(context, Routes.vouchers),
                           // ),
-                          ListItem(
-                            title: L10n.of(context).profileListFavorites,
-                            leading: const Icon(Icons.favorite_border),
-                            trailing: const ArrowRightIcon(),
-                            onPressed: () =>
-                                Navigator.pushNamed(context, Routes.favorites),
-                          ),
+                          if (getIt.get<AppGlobals>().user != null &&
+                              getIt.get<AppGlobals>().user.role != 'admin')
+                            ListItem(
+                              title: L10n.of(context).profileListFavorites,
+                              leading: const Icon(Icons.favorite_border),
+                              trailing: const ArrowRightIcon(),
+                              onPressed: () => Navigator.pushNamed(
+                                  context, Routes.favorites),
+                            ),
                           ListItem(
                             title: L10n.of(context).profileListReviews,
                             leading: const Icon(Icons.star_border),
@@ -134,22 +138,29 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           //   onPressed: () =>
                           //       Navigator.pushNamed(context, Routes.invite),
                           // ),
-                          ListItem(
-                            title: L10n.of(context).profileListEdit,
-                            leading: const Icon(Icons.person_outline),
-                            trailing: const ArrowRightIcon(),
-                            onPressed: () => Navigator.pushNamed(
-                                context, Routes.editProfile),
-                          ),
-                          ListTitle(
-                              title: L10n.of(context).profileListTitleSettings),
-                          ListItem(
-                            title: L10n.of(context).profileListPaymentCard,
-                            leading: const Icon(Icons.payment),
-                            trailing: const ArrowRightIcon(),
-                            onPressed: () => Navigator.pushNamed(
-                                context, Routes.paymentCard),
-                          ),
+                          if (getIt.get<AppGlobals>().user != null &&
+                              getIt.get<AppGlobals>().user.role != 'admin')
+                            ListItem(
+                              title: L10n.of(context).profileListEdit,
+                              leading: const Icon(Icons.person_outline),
+                              trailing: const ArrowRightIcon(),
+                              onPressed: () => Navigator.pushNamed(
+                                  context, Routes.editProfile),
+                            ),
+                          if (getIt.get<AppGlobals>().user != null &&
+                              getIt.get<AppGlobals>().user.role != 'admin')
+                            ListTitle(
+                                title:
+                                    L10n.of(context).profileListTitleSettings),
+                          if (getIt.get<AppGlobals>().user != null &&
+                              getIt.get<AppGlobals>().user.role != 'admin')
+                            ListItem(
+                              title: L10n.of(context).profileListPaymentCard,
+                              leading: const Icon(Icons.payment),
+                              trailing: const ArrowRightIcon(),
+                              onPressed: () => Navigator.pushNamed(
+                                  context, Routes.paymentCard),
+                            ),
                           ListItem(
                             title: L10n.of(context).profileListSettings,
                             leading: const Icon(Icons.settings),
@@ -174,15 +185,20 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                 },
                                 child: Center(
                                   child: InkWell(
-                                    onTap: () =>
-                                        BlocProvider.of<AuthBloc>(context)
-                                            .add(UserLoggedOutAuthEvent()),
+                                    onTap: () => {
+                                      // getIt.get<AppGlobals>().user = null,
+                                      BlocProvider.of<AuthBloc>(context)
+                                          .add(UserLoggedOutAuthEvent()),
+                                      // getIt.get<AppGlobals>().user = null,
+                                      // Navigator.pushNamed(
+                                      //     context, Routes.appointment)
+                                    },
                                     child: StrutText(
                                       L10n.of(context).profileListLogout,
                                       style: Theme.of(context)
                                           .textTheme
                                           .subtitle1
-                                          .w400
+                                          .w800
                                           .copyWith(
                                               color:
                                                   Theme.of(context).hintColor),

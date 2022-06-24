@@ -107,7 +107,9 @@ dependencies:
   provider:
   flutter_html:
   flutter_rating_bar:
-
+  webviewx:
+  webview_flutter:
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter

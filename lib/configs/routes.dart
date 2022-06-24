@@ -1,3 +1,4 @@
+import 'package:SnipSnap/screens/sign_in.dart';
 import 'package:SnipSnap/vendor/screens/expertListScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:SnipSnap/configs/app_globals.dart';
@@ -42,6 +43,7 @@ class Routes {
   static const String searchMap = '/search/map';
   static const String forgotPassword = '/forgotPassword';
   static const String signUp = '/signUp';
+  static const String signIn = '/signIn';
   static const String settings = '/settings';
   static const String editProfile = '/editProfile';
   static const String takePicture = '/takePicture';
@@ -146,6 +148,17 @@ class Routes {
             );
           },
         );
+      // case signIn:
+      //   return MaterialPageRoute<SignUpScreen>(
+      //     builder: (BuildContext context) {
+      //       return Directionality(
+      //         textDirection: getIt.get<AppGlobals>().isRTL
+      //             ? TextDirection.rtl
+      //             : TextDirection.ltr,
+      //         child: const SignInScreen(),
+      //       );
+      //     },
+      //   );
       case signUp:
         return MaterialPageRoute<SignUpScreen>(
           builder: (BuildContext context) {

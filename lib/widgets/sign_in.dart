@@ -46,7 +46,7 @@ class _SignInWidgetState extends State<SignInWidget>
 
   AuthBloc _loginBloc;
   bool _showPassword = false;
-  bool _isloginAsVendor = false;
+  // bool _isloginAsVendor = false;
 
   String _title;
 
@@ -72,14 +72,14 @@ class _SignInWidgetState extends State<SignInWidget>
   void _validateForm() {
     FormUtils.hideKeyboard(context);
 
-    Navigator.pushNamed(context, Routes.addServices);
-    // if (keyPasswordInput.currentState.validate() &&
-    //     keyEmailInput.currentState.validate()) {
-    //   _loginBloc.add(LoginRequestedAuthEvent(
-    //     email: _textEmailController.text,
-    //     password: _textPassController.text,
-    //   ));
-    // }
+    // Navigator.pushNamed(context, Routes.addServices);
+    if (keyPasswordInput.currentState.validate() &&
+        keyEmailInput.currentState.validate()) {
+      _loginBloc.add(LoginRequestedAuthEvent(
+        email: _textEmailController.text,
+        password: _textPassController.text,
+      ));
+    }
   }
 
   @override
@@ -182,18 +182,18 @@ class _SignInWidgetState extends State<SignInWidget>
                     child: Text(L10n.of(context).signInButtonForgot),
                   ),
                   const Padding(padding: EdgeInsets.only(top: kPaddingM)),
-                  CupertinoSwitch(
-                      value: false,
-                      onChanged: (bool value) {
-                        setState(() {
-                          _isloginAsVendor = true;
-                        });
-                      },
-                      activeColor: CupertinoColors.activeOrange),
-                  SizedBox(
-                    child: Text("Login as vendor"),
-                  ),
-                  const Padding(padding: EdgeInsets.only(top: kPaddingS)),
+                  // CupertinoSwitch(
+                  //     value: false,
+                  //     onChanged: (bool value) {
+                  //       setState(() {
+                  //         _isloginAsVendor = true;
+                  //       });
+                  //     },
+                  //     activeColor: CupertinoColors.activeOrange),
+                  // SizedBox(
+                  //   child: Text("Login as vendor"),
+                  // ),
+                  // const Padding(padding: EdgeInsets.only(top: kPaddingS)),
                   const Padding(padding: EdgeInsets.only(top: kPaddingS)),
                 ],
               ),

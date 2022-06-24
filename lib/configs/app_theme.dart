@@ -47,7 +47,7 @@ class AppTheme {
         labelColor: Colors.white,
       ),
       inputDecorationTheme: const InputDecorationTheme(
-        fillColor: Color(0xFFF0F0F0),
+        fillColor: Color(0x61000000),
         labelStyle: TextStyle(
           fontSize: 14,
           color: Colors.black,

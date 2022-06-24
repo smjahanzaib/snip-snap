@@ -1,3 +1,4 @@
+import 'package:SnipSnap/data/models/user_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:SnipSnap/blocs/auth/auth_bloc.dart';
@@ -7,6 +8,9 @@ import 'package:SnipSnap/data/models/bottom_bar_item_model.dart';
 import 'package:SnipSnap/main.dart';
 import 'package:SnipSnap/screens/appointments/appointments.dart';
 import 'package:SnipSnap/screens/appointments/appointments_welcome.dart';
+import 'package:SnipSnap/vendor2/screens/edit_salon/edit_salon.dart';
+import 'package:SnipSnap/vendor2/screens/add_service/add_service.dart';
+import 'package:SnipSnap/vendor2/screens/add_staff/add_staff.dart';
 import 'package:SnipSnap/screens/home/home.dart';
 import 'package:SnipSnap/screens/inbox/inbox.dart';
 import 'package:SnipSnap/screens/profile/profile.dart';
@@ -23,21 +27,37 @@ class BottomNavigation extends StatefulWidget {
 
 class _BottomNavigationState extends State<BottomNavigation> {
   int _selectedIndex = 0;
+  final UserModel currentUser = getIt.get<AppGlobals>().user;
 
   void _onItemTapped(int index) {
+    setState(() => _selectedIndex = index);
     setState(() => _selectedIndex = index);
   }
 
   /// Creates the bottom bar items.
   List<BottomNavigationBarItem> _bottomBarItems(BuildContext context) {
     getIt.get<BottomBarItems>().clear();
-
-    getIt
-        .get<BottomBarItems>()
-        .add(const BottomBarItemModel(id: 'home', icon: Icons.explore));
-    getIt
-        .get<BottomBarItems>()
-        .add(const BottomBarItemModel(id: 'explore', icon: Icons.search));
+// mode_edit  edit_sharp
+    if (getIt.get<AppGlobals>().user != null &&
+        getIt.get<AppGlobals>().user.role == 'admin')
+      getIt.get<BottomBarItems>().add(
+          const BottomBarItemModel(id: 'SalonEdit', icon: Icons.mode_edit));
+    else
+      getIt
+          .get<BottomBarItems>()
+          .add(const BottomBarItemModel(id: 'home', icon: Icons.explore));
+    if (getIt.get<AppGlobals>().user != null &&
+        getIt.get<AppGlobals>().user.role == 'admin')
+      getIt.get<BottomBarItems>().add(const BottomBarItemModel(
+          id: 'SalonEdit', icon: Icons.home_repair_service));
+    else
+      getIt
+          .get<BottomBarItems>()
+          .add(const BottomBarItemModel(id: 'explore', icon: Icons.search));
+    if (getIt.get<AppGlobals>().user != null &&
+        getIt.get<AppGlobals>().user.role == 'admin')
+      getIt.get<BottomBarItems>().add(const BottomBarItemModel(
+          id: 'addStaff', icon: Icons.supervisor_account));
     getIt.get<BottomBarItems>().add(
         const BottomBarItemModel(id: 'appointments', icon: Icons.date_range));
     getIt
@@ -69,8 +89,23 @@ class _BottomNavigationState extends State<BottomNavigation> {
           return IndexedStack(
             index: _selectedIndex,
             children: <Widget>[
-              HomeScreen(key: getIt.get<AppGlobals>().globalKeyHomeScreen),
-              SearchScreen(key: getIt.get<AppGlobals>().globalKeySearchScreen),
+              if (getIt.get<AppGlobals>().user != null &&
+                  getIt.get<AppGlobals>().user.role == 'admin')
+                EditSalonScreen(
+                    key: getIt.get<AppGlobals>().globalKeyHomeScreen)
+              else
+                HomeScreen(key: getIt.get<AppGlobals>().globalKeyHomeScreen),
+              if (getIt.get<AppGlobals>().user != null &&
+                  getIt.get<AppGlobals>().user.role == 'admin')
+                AddVendorServiceScreen(
+                    key: getIt.get<AppGlobals>().globalKeyHomeScreen)
+              else
+                SearchScreen(
+                    key: getIt.get<AppGlobals>().globalKeySearchScreen),
+              if (getIt.get<AppGlobals>().user != null &&
+                  getIt.get<AppGlobals>().user.role == 'admin')
+                AddStaffScreen(
+                    key: getIt.get<AppGlobals>().globalKeyHomeScreen),
               if (getIt.get<AppGlobals>().user != null)
                 const AppointmentsScreen()
               else

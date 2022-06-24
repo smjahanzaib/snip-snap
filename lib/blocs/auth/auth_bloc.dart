@@ -21,7 +21,7 @@ part 'auth_state.dart';
 
 class AuthBloc extends BaseBloc<AuthEvent, AuthState> {
   AuthBloc() : super(InitialAuthState());
-  final baseUrl = 'http://192.168.43.39:9000/api/v1';
+  final baseUrl = 'http://192.168.0.102:9000/api/v1';
 
   @override
   Stream<AuthState> mapEventToState(AuthEvent event) async* {
@@ -63,13 +63,15 @@ class AuthBloc extends BaseBloc<AuthEvent, AuthState> {
     print(event.fullName);
     print(event.password);
     print(event.email);
+    print(event.role);
     try {
       var res = await http.post(
         baseUrl + '/user',
         body: {
           'fullName': event.fullName,
           'password': event.password,
-          'email': event.email
+          'email': event.email,
+          'role': event.role
         },
       );
       var serverRes = jsonDecode(res.body)['message'];
@@ -111,6 +113,8 @@ class AuthBloc extends BaseBloc<AuthEvent, AuthState> {
       final user = jsonDecode(res.body)['data'] as Map<String, dynamic>;
       final UserModel userData = UserModel.fromJson(user);
       getIt.get<AppGlobals>().user = userData;
+      print('serverRes userData: $user');
+      print('serverRes salon: $user');
 
       try {
         add(UserSavedAuthEvent(getIt.get<AppGlobals>().user));

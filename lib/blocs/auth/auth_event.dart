@@ -26,15 +26,13 @@ class LoginRequestedAuthEvent extends AuthEvent {
 }
 
 class UserRegisteredAuthEvent extends AuthEvent {
-  UserRegisteredAuthEvent({
-    this.fullName,
-    this.email,
-    this.password,
-  });
+  UserRegisteredAuthEvent(
+      {this.fullName, this.email, this.password, this.role});
 
   final String fullName;
   final String email;
   final String password;
+  final String role;
 }
 
 class UserSavedAuthEvent extends AuthEvent {

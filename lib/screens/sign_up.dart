@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:SnipSnap/blocs/auth/auth_bloc.dart';
@@ -38,6 +39,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
   bool _showPassword = false;
   bool _consentGiven = false;
+  bool _isloginAsVendor = false;
 
   void _signUp() {
     FormUtils.hideKeyboard(context);
@@ -55,10 +57,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
         keyEmailInput.currentState.validate() &&
         keyPasswordInput.currentState.validate()) {
       BlocProvider.of<AuthBloc>(context).add(UserRegisteredAuthEvent(
-        fullName: _textNameController.text,
-        email: _textEmailController.text,
-        password: _textPassController.text,
-      ));
+          fullName: _textNameController.text,
+          email: _textEmailController.text,
+          password: _textPassController.text,
+          role: _isloginAsVendor ? 'admin' : 'user'));
+      debugPrint('_isloginAsVendor: $_isloginAsVendor');
     }
   }
 
@@ -164,6 +167,19 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     controlAffinity: ListTileControlAffinity.leading,
                   ),
                 ),
+                CupertinoSwitch(
+                    value: _isloginAsVendor,
+                    onChanged: (bool value) {
+                      setState(() {
+                        _isloginAsVendor = !_isloginAsVendor;
+                        // debugPrint('_isloginAsVendor: $_isloginAsVendor');
+                      });
+                    },
+                    activeColor: CupertinoColors.activeOrange),
+                const SizedBox(
+                  child: Text('Create account as vendor'),
+                ),
+                const Padding(padding: EdgeInsets.only(top: kPaddingM)),
                 BlocBuilder<AuthBloc, AuthState>(
                   builder: (BuildContext context, AuthState authState) {
                     return BlocListener<AuthBloc, AuthState>(
@@ -184,17 +200,17 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     );
                   },
                 ),
-                Padding(
-                  padding: const EdgeInsets.symmetric(vertical: kPaddingM),
-                  child: LinkButton(
-                    trailing: Icon(
-                      Icons.open_in_browser,
-                      color: Theme.of(context).hintColor,
-                    ),
-                    label: L10n.of(context).signUpReadMore,
-                    onPressed: () => Async.launchUrl(kTermsOfServiceURL),
-                  ),
-                ),
+                // Padding(
+                //   padding: const EdgeInsets.symmetric(vertical: kPaddingM),
+                //   child: LinkButton(
+                //     trailing: Icon(
+                //       Icons.open_in_browser,
+                //       color: Theme.of(context).hintColor,
+                //     ),
+                //     label: L10n.of(context).signUpReadMore,
+                //     onPressed: () => Async.launchUrl(kTermsOfServiceURL),
+                //   ),
+                // ),
               ],
             ),
           ),
