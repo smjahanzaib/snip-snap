@@ -21,7 +21,7 @@ part 'auth_state.dart';
 
 class AuthBloc extends BaseBloc<AuthEvent, AuthState> {
   AuthBloc() : super(InitialAuthState());
-  final baseUrl = 'http://192.168.0.102:9000/api/v1';
+  final baseUrl = 'http://192.168.43.39:9000/api/v1';
 
   @override
   Stream<AuthState> mapEventToState(AuthEvent event) async* {

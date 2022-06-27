@@ -13,7 +13,6 @@ import 'package:SnipSnap/widgets/strut_text.dart';
 import 'package:SnipSnap/widgets/theme_button.dart';
 import 'package:SnipSnap/widgets/theme_text_input.dart';
 import 'package:SnipSnap/utils/text_style.dart';
-import 'package:SnipSnap/vendor/screens/addServicesScreen.dart';
 
 /// Signin widget to be used wherever we need user to log in before taking any
 /// action.

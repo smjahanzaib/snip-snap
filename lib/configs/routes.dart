@@ -1,5 +1,3 @@
-import 'package:SnipSnap/screens/sign_in.dart';
-import 'package:SnipSnap/vendor/screens/expertListScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:SnipSnap/configs/app_globals.dart';
 import 'package:SnipSnap/data/models/appointment_model.dart';
@@ -31,7 +29,6 @@ import 'package:SnipSnap/screens/sign_up.dart';
 import 'package:SnipSnap/screens/voucher/voucher.dart';
 import 'package:SnipSnap/screens/vouchers/vouchers.dart';
 import 'package:SnipSnap/widgets/picker.dart';
-import 'package:SnipSnap/vendor/screens/addServicesScreen.dart';
 
 /// Generate [MaterialPageRoute] for our screens.
 class Routes {
@@ -347,17 +344,6 @@ class Routes {
                   ? TextDirection.rtl
                   : TextDirection.ltr,
               child: ChatScreen(sessionId: routeSettings.arguments as int),
-            );
-          },
-        );
-      case addServices:
-        return MaterialPageRoute<ExpertListScreen>(
-          builder: (BuildContext context) {
-            return Directionality(
-              textDirection: getIt.get<AppGlobals>().isRTL
-                  ? TextDirection.rtl
-                  : TextDirection.ltr,
-              child: ExpertListScreen(),
             );
           },
         );
